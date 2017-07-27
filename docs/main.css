@@ -1,0 +1,58 @@
+body{
+  background-image: url('imgs/shadowman.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: 'Open Sans';
+}
+html{
+  height: 100%;
+}
+
+/* make sidebar nav vertical */ 
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    color: white;
+    text-align: center;
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+}
+hr{
+  background-color: royalblue;
+  width: 400px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0,0,0,0.2)
+}
+.content{
+  text-align: center center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-shadow: 0px 4px 3px purple,
+         0px 8px 13px pink,
+         0px 18px 23px violet;
+}
+.shadow{
+  color: lightgray;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.70);
+  margin-top: 25%;
+  border-radius: 25px;
+}
+.text{
+  margin-bottom: 10%; 
+  margin-right:10%;
+  margin-left: 10%
+}

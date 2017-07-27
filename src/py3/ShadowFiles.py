@@ -1,8 +1,14 @@
+#!/usr/bin/env python 
 #ShadowFile Linux version python 2.x
 #Github author address: https://github.com/tetration
 #Contact: Tetration@outlook.com
 #Written for Python 2.x and 3.x
 #Warning This version is for Python 3 Only!
+# This script and the author is not responsible for any damages
+# it might cause you including but not limited to damaging your system, 
+# making your house burn, making you flunk at school/college or
+# giving you any kind of stress. 
+# Use it at your own will and risk!
 import os
 
 path =  os.getcwd()
